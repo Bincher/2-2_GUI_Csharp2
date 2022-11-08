@@ -46,6 +46,7 @@ namespace FormApp
             //3. 안전하지 않은 코드 허용 확인란을 선택한다.
             unsafe 
             {
+
                 //IntPtr pImg = scr.Data;
                 //byte* buff = (byte*)pImg.ToPointer();
                 byte* buff = (byte*)src.DataPointer;
